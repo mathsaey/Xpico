@@ -1,0 +1,10 @@
+ffffffffffffffffffffffffffffffff dc7e71c3f61a5488834b3edcf6a4256b ffffffffffffffffffffffffffffffff 0 /Users/joeri/Desktop/XPico/build/Debug/xpico
+000000004ec2821f0000000000021fd5 7601e3e019abc59aadf04ddd7c75e4ed ffffffffffffffffffffffffffffffff 0 /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoNat.o
+000000004ec282c00000000000001a4b 16ba10937020a4f01ddc64b4732802a0 ffffffffffffffffffffffffffffffff 0 /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/XPico.o
+0000000043146e9300000000000032e7 41b5ff71268fb342921420a3dafca790 ffffffffffffffffffffffffffffffff 0 /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoSca.o
+000000003b31c4030000000000007e5c 99dffbfb542eadf4578c720c3053bbb9 ffffffffffffffffffffffffffffffff 0 /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoRea.o
+000000003b31c4020000000000002f5a 04cbadad24cd479b8be7009fe1dcad72 ffffffffffffffffffffffffffffffff 0 /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoPri.o
+000000003b31c3fc00000000000080e2 c895beeebe4ac6df52706020dd0ba152 ffffffffffffffffffffffffffffffff 0 /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEva.o
+00000000408ae78600000000000033b1 ef2370356a65e486fa9a373711bef58b ffffffffffffffffffffffffffffffff 0 /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMai.o
+000000003b31c3fe000000000000382c d7e71110674f6b6f76ad00b0df98006e ffffffffffffffffffffffffffffffff 0 /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMem.o
+0000000043132f57000000000000176b ad2e3a4a6583aa197651e1e84f815022 ffffffffffffffffffffffffffffffff 0 /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEnv.o

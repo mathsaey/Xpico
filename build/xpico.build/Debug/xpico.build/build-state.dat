@@ -1,0 +1,313 @@
+Txpico
+v3
+r1
+cCheck dependencies
+cCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEnv.o /Users/joeri/Desktop/XPico/xpico/PicoEnv.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEva.o /Users/joeri/Desktop/XPico/xpico/PicoEva.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMai.o /Users/joeri/Desktop/XPico/xpico/PicoMai.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMem.o /Users/joeri/Desktop/XPico/xpico/PicoMem.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoRea.o /Users/joeri/Desktop/XPico/xpico/PicoRea.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoNat.o /Users/joeri/Desktop/XPico/xpico/PicoNat.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoPri.o /Users/joeri/Desktop/XPico/xpico/PicoPri.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoSca.o /Users/joeri/Desktop/XPico/xpico/PicoSca.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/XPico.o /Users/joeri/Desktop/XPico/xpico/XPico.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/joeri/Desktop/XPico/build/Debug/xpico normal i386
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E1106D400000000000000EE
+t1309738708
+s238
+
+N/Users/joeri/Desktop/XPico/build/Debug/xpico
+t1321370806
+s125856
+
+N/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEnv.o
+t1321370648
+s10516
+
+N/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEva.o
+t1321370648
+s28400
+
+N/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMai.o
+t1321370648
+s20124
+
+N/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMem.o
+t1321370648
+s13336
+
+N/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoNat.o
+t1321370648
+s98660
+
+N/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoPri.o
+t1321370648
+s10636
+
+N/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoRea.o
+t1321370648
+s22644
+
+N/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoSca.o
+t1321370648
+s18200
+
+N/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/XPico.o
+t1321370806
+s13544
+
+N/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/xpico.LinkFileList
+c000000004EC284180000000000000343
+t1321370648
+s835
+
+N/Users/joeri/Desktop/XPico/xpico/Pico.h
+c000000003B31C3FA00000000000041B0
+t993117178
+s16816
+
+N/Users/joeri/Desktop/XPico/xpico/PicoEnv.c
+c0000000043132F57000000000000176B
+t1125330775
+s5995
+
+N/Users/joeri/Desktop/XPico/xpico/PicoEnv.h
+c000000003B31C3FC00000000000008FA
+t993117180
+s2298
+
+N/Users/joeri/Desktop/XPico/xpico/PicoEva.c
+c000000003B31C3FC00000000000080E2
+t993117180
+s32994
+
+N/Users/joeri/Desktop/XPico/xpico/PicoEva.h
+c000000003B31C3FC00000000000001A2
+t993117180
+s418
+
+N/Users/joeri/Desktop/XPico/xpico/PicoMai.c
+c00000000408AE78600000000000033B1
+t1082845062
+s13233
+
+N/Users/joeri/Desktop/XPico/xpico/PicoMai.h
+c000000003E3E7EAC0000000000002C2E
+t1044283052
+s11310
+
+N/Users/joeri/Desktop/XPico/xpico/PicoMem.c
+c000000003B31C3FE000000000000382C
+t993117182
+s14380
+
+N/Users/joeri/Desktop/XPico/xpico/PicoMem.h
+c000000003B31C3FF0000000000000D09
+t993117183
+s3337
+
+N/Users/joeri/Desktop/XPico/xpico/PicoNat.c
+c000000004EC2821F0000000000021FD5
+t1321370143
+s139221
+
+N/Users/joeri/Desktop/XPico/xpico/PicoNat.h
+c000000003B31C401000000000000034E
+t993117185
+s846
+
+N/Users/joeri/Desktop/XPico/xpico/PicoPri.c
+c000000003B31C4020000000000002F5A
+t993117186
+s12122
+
+N/Users/joeri/Desktop/XPico/xpico/PicoPri.h
+c000000003B31C402000000000000017E
+t993117186
+s382
+
+N/Users/joeri/Desktop/XPico/xpico/PicoRea.c
+c000000003B31C4030000000000007E5C
+t993117187
+s32348
+
+N/Users/joeri/Desktop/XPico/xpico/PicoRea.h
+c000000003B31C403000000000000017D
+t993117187
+s381
+
+N/Users/joeri/Desktop/XPico/xpico/PicoSca.c
+c0000000043146E9300000000000032E7
+t1125412499
+s13031
+
+N/Users/joeri/Desktop/XPico/xpico/PicoSca.h
+c000000003B31C404000000000000057B
+t993117188
+s1403
+
+N/Users/joeri/Desktop/XPico/xpico/XPico.c
+c000000004EC284B50000000000001A4D
+t1321370805
+s6733
+
+CBuild AST from /Users/joeri/Desktop/XPico/xpico/PicoEnv.c
+r0
+
+CBuild AST from /Users/joeri/Desktop/XPico/xpico/PicoEva.c
+r0
+
+CBuild AST from /Users/joeri/Desktop/XPico/xpico/PicoMai.c
+r0
+
+CBuild AST from /Users/joeri/Desktop/XPico/xpico/PicoMem.c
+r0
+
+CBuild AST from /Users/joeri/Desktop/XPico/xpico/PicoNat.c
+r0
+
+CBuild AST from /Users/joeri/Desktop/XPico/xpico/PicoPri.c
+r0
+
+CBuild AST from /Users/joeri/Desktop/XPico/xpico/PicoRea.c
+r0
+
+CBuild AST from /Users/joeri/Desktop/XPico/xpico/PicoSca.c
+r0
+
+CBuild AST from /Users/joeri/Desktop/XPico/xpico/XPico.c
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies08e6d431ba73b441^46cee231ba73b441^---0#1#0#--18"Check dependencies
+
+CCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEnv.o /Users/joeri/Desktop/XPico/xpico/PicoEnv.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s343063448.413218
+e343063448.490963
+r1
+xCompileC
+xbuild/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEnv.o
+x/Users/joeri/Desktop/XPico/xpico/PicoEnv.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/joeri/Desktop/XPico/xpico/PicoEnv.c84f36998bb72b441^4209a398bb72b441^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/joeri/Desktop/XPico/xpico/PicoEnv.c0000000000000000^1562"CompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEnv.o xpico/PicoEnv.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joeri/Desktop/XPico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-generated-files.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-own-target-headers.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-all-target-headers.hmap -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-project-headers.hmap -I/Users/joeri/Desktop/XPico/build/Debug/include -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources/i386 -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources -F/Users/joeri/Desktop/XPico/build/Debug -MMD -MT dependencies -MF /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEnv.d -c /Users/joeri/Desktop/XPico/xpico/PicoEnv.c -o /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEnv.o
+
+CCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEva.o /Users/joeri/Desktop/XPico/xpico/PicoEva.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s343063448.413208
+e343063448.538786
+r1
+xCompileC
+xbuild/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEva.o
+x/Users/joeri/Desktop/XPico/xpico/PicoEva.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/joeri/Desktop/XPico/xpico/PicoEva.c1ff36998bb72b441^8411a398bb72b441^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/joeri/Desktop/XPico/xpico/PicoEva.c0000000000000000^1562"CompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEva.o xpico/PicoEva.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joeri/Desktop/XPico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-generated-files.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-own-target-headers.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-all-target-headers.hmap -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-project-headers.hmap -I/Users/joeri/Desktop/XPico/build/Debug/include -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources/i386 -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources -F/Users/joeri/Desktop/XPico/build/Debug -MMD -MT dependencies -MF /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEva.d -c /Users/joeri/Desktop/XPico/xpico/PicoEva.c -o /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoEva.o
+
+CCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMai.o /Users/joeri/Desktop/XPico/xpico/PicoMai.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s343063448.413541
+e343063448.506525
+r1
+xCompileC
+xbuild/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMai.o
+x/Users/joeri/Desktop/XPico/xpico/PicoMai.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/joeri/Desktop/XPico/xpico/PicoMai.cc7f36998bb72b441^c70da398bb72b441^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/joeri/Desktop/XPico/xpico/PicoMai.c0000000000000000^1562"CompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMai.o xpico/PicoMai.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joeri/Desktop/XPico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-generated-files.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-own-target-headers.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-all-target-headers.hmap -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-project-headers.hmap -I/Users/joeri/Desktop/XPico/build/Debug/include -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources/i386 -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources -F/Users/joeri/Desktop/XPico/build/Debug -MMD -MT dependencies -MF /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMai.d -c /Users/joeri/Desktop/XPico/xpico/PicoMai.c -o /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMai.o
+
+CCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMem.o /Users/joeri/Desktop/XPico/xpico/PicoMem.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s343063448.413919
+e343063448.490954
+r1
+xCompileC
+xbuild/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMem.o
+x/Users/joeri/Desktop/XPico/xpico/PicoMem.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/joeri/Desktop/XPico/xpico/PicoMem.c070c6a98bb72b441^ac00a398bb72b441^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/joeri/Desktop/XPico/xpico/PicoMem.c0000000000000000^1562"CompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMem.o xpico/PicoMem.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joeri/Desktop/XPico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-generated-files.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-own-target-headers.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-all-target-headers.hmap -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-project-headers.hmap -I/Users/joeri/Desktop/XPico/build/Debug/include -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources/i386 -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources -F/Users/joeri/Desktop/XPico/build/Debug -MMD -MT dependencies -MF /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMem.d -c /Users/joeri/Desktop/XPico/xpico/PicoMem.c -o /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoMem.o
+
+CCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoNat.o /Users/joeri/Desktop/XPico/xpico/PicoNat.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s343063448.492489
+e343063448.707405
+r1
+xCompileC
+xbuild/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoNat.o
+x/Users/joeri/Desktop/XPico/xpico/PicoNat.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/joeri/Desktop/XPico/xpico/PicoNat.cad2f7e98bb72b441^9c19b598bb72b441^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/joeri/Desktop/XPico/xpico/PicoNat.c0000000000000000^1562"CompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoNat.o xpico/PicoNat.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joeri/Desktop/XPico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-generated-files.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-own-target-headers.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-all-target-headers.hmap -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-project-headers.hmap -I/Users/joeri/Desktop/XPico/build/Debug/include -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources/i386 -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources -F/Users/joeri/Desktop/XPico/build/Debug -MMD -MT dependencies -MF /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoNat.d -c /Users/joeri/Desktop/XPico/xpico/PicoNat.c -o /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoNat.o
+
+CCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoPri.o /Users/joeri/Desktop/XPico/xpico/PicoPri.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s343063448.492664
+e343063448.550224
+r1
+xCompileC
+xbuild/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoPri.o
+x/Users/joeri/Desktop/XPico/xpico/PicoPri.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/joeri/Desktop/XPico/xpico/PicoPri.cfc347e98bb72b441^2f15a398bb72b441^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/joeri/Desktop/XPico/xpico/PicoPri.c0000000000000000^1562"CompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoPri.o xpico/PicoPri.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joeri/Desktop/XPico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-generated-files.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-own-target-headers.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-all-target-headers.hmap -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-project-headers.hmap -I/Users/joeri/Desktop/XPico/build/Debug/include -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources/i386 -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources -F/Users/joeri/Desktop/XPico/build/Debug -MMD -MT dependencies -MF /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoPri.d -c /Users/joeri/Desktop/XPico/xpico/PicoPri.c -o /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoPri.o
+
+CCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoRea.o /Users/joeri/Desktop/XPico/xpico/PicoRea.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s343063448.511540
+e343063448.601353
+r1
+xCompileC
+xbuild/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoRea.o
+x/Users/joeri/Desktop/XPico/xpico/PicoRea.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/joeri/Desktop/XPico/xpico/PicoRea.ce6408398bb72b441^0d19a398bb72b441^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/joeri/Desktop/XPico/xpico/PicoRea.c0000000000000000^1562"CompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoRea.o xpico/PicoRea.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joeri/Desktop/XPico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-generated-files.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-own-target-headers.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-all-target-headers.hmap -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-project-headers.hmap -I/Users/joeri/Desktop/XPico/build/Debug/include -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources/i386 -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources -F/Users/joeri/Desktop/XPico/build/Debug -MMD -MT dependencies -MF /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoRea.d -c /Users/joeri/Desktop/XPico/xpico/PicoRea.c -o /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoRea.o
+
+CCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoSca.o /Users/joeri/Desktop/XPico/xpico/PicoSca.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s343063448.540254
+e343063448.605738
+r1
+xCompileC
+xbuild/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoSca.o
+x/Users/joeri/Desktop/XPico/xpico/PicoSca.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/joeri/Desktop/XPico/xpico/PicoSca.c226e8a98bb72b441^321ca398bb72b441^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/joeri/Desktop/XPico/xpico/PicoSca.c0000000000000000^1562"CompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoSca.o xpico/PicoSca.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joeri/Desktop/XPico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-generated-files.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-own-target-headers.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-all-target-headers.hmap -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-project-headers.hmap -I/Users/joeri/Desktop/XPico/build/Debug/include -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources/i386 -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources -F/Users/joeri/Desktop/XPico/build/Debug -MMD -MT dependencies -MF /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoSca.d -c /Users/joeri/Desktop/XPico/xpico/PicoSca.c -o /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/PicoSca.o
+
+CCompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/XPico.o /Users/joeri/Desktop/XPico/xpico/XPico.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s343063606.593449
+e343063606.710467
+r1
+xCompileC
+xbuild/xpico.build/Debug/xpico.build/Objects-normal/i386/XPico.o
+x/Users/joeri/Desktop/XPico/xpico/XPico.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Compile /Users/joeri/Desktop/XPico/xpico/XPico.ca8009836bc72b441^bff2b836bc72b441^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Users/joeri/Desktop/XPico/xpico/XPico.c0000000000000000^1552"CompileC build/xpico.build/Debug/xpico.build/Objects-normal/i386/XPico.o xpico/XPico.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joeri/Desktop/XPico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-generated-files.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-own-target-headers.hmap -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-all-target-headers.hmap -iquote /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/xpico-project-headers.hmap -I/Users/joeri/Desktop/XPico/build/Debug/include -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources/i386 -I/Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/DerivedSources -F/Users/joeri/Desktop/XPico/build/Debug -MMD -MT dependencies -MF /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/XPico.d -c /Users/joeri/Desktop/XPico/xpico/XPico.c -o /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/XPico.o
+
+CLd /Users/joeri/Desktop/XPico/build/Debug/xpico normal i386
+s343063606.717482
+e343063606.870473
+r1
+xLd
+x/Users/joeri/Desktop/XPico/build/Debug/xpico
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Link /Users/joeri/Desktop/XPico/build/Debug/xpico51bfb736bc72b441^88d6de36bc72b441^---0#0#0#--488"Ld build/Debug/xpico normal i386    cd /Users/joeri/Desktop/XPico    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/joeri/Desktop/XPico/build/Debug -F/Users/joeri/Desktop/XPico/build/Debug -filelist /Users/joeri/Desktop/XPico/build/xpico.build/Debug/xpico.build/Objects-normal/i386/xpico.LinkFileList -mmacosx-version-min=10.7 -ltermcap -lncurses -lreadline -o /Users/joeri/Desktop/XPico/build/Debug/xpico
+
