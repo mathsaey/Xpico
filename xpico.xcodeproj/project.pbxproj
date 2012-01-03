@@ -49,6 +49,8 @@
 		D0D154B61472B39A00C266AB /* PicoSca.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PicoSca.c; path = xpico/PicoSca.c; sourceTree = "<group>"; };
 		D0D154B71472B39A00C266AB /* PicoSca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PicoSca.h; path = xpico/PicoSca.h; sourceTree = "<group>"; };
 		D0D154B81472B39A00C266AB /* XPico.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = XPico.c; path = xpico/XPico.c; sourceTree = "<group>"; };
+		D558251C14B2935500AC4558 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.MD; sourceTree = "<group>"; };
+		D558251D14B2936E00AC4558 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D5E28C4514AA38860002F594 /* xpico */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xpico; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				D0D154A61472B37E00C266AB /* xpico */,
+				D558251D14B2936E00AC4558 /* .gitignore */,
+				D558251C14B2935500AC4558 /* README.MD */,
 				D5E28C4514AA38860002F594 /* xpico */,
 			);
 			sourceTree = "<group>";
