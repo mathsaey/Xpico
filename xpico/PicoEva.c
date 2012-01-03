@@ -22,6 +22,8 @@
 
 /* private prototypes */
 
+//Statische functies => enkel zichtbaar in zelfde file
+
 static _NIL_TYPE_ APL(_NIL_TYPE_);  
 static _NIL_TYPE_ ASS(_NIL_TYPE_); 
 static _NIL_TYPE_ ATA(_NIL_TYPE_); 
