@@ -19,6 +19,7 @@
 /* private constants */
 
 #define VOI_TEXT "<void>"
+#define STO_TEXT "<stop>" //Added Stop text
 #define VAR_TEXT "<variable>"
 #define APL_TEXT "<application>"
 #define TBL_TEXT "<tabulation>"
@@ -49,6 +50,7 @@ static _NIL_TYPE_ TBL(_NIL_TYPE_);
 static _NIL_TYPE_ TXT(_NIL_TYPE_);
 static _NIL_TYPE_ VAR(_NIL_TYPE_);
 static _NIL_TYPE_ VOI(_NIL_TYPE_);
+static _NIL_TYPE_ STO(_NIL_TYPE_); //Added STO
 
 /* private variables */
 
@@ -66,10 +68,10 @@ static const _CNT_TYPE_ CNT_tab[] =
      SET,
      DCT,
      ENV,
-     NYI,
+     STO,//Added stop
      NYI,
      NYI, 
-     NBR }; 
+     NBR}; 
 
 /* private functions */
 
@@ -292,6 +294,12 @@ static _NIL_TYPE_ VOI(_NIL_TYPE_)
  { _stk_poke_EXP_(_EOLN_);
    _stk_zap_CNT_();
    _print_(VOI_TEXT); }
+
+//Added stop
+static _NIL_TYPE_ STO(_NIL_TYPE_)
+{ _stk_poke_EXP_(_EOLN_);
+  _stk_zap_CNT_();
+  _print_(STO_TEXT); }
 
 /* public functions */
 

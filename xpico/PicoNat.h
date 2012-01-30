@@ -20,6 +20,7 @@ extern _EXP_TYPE_ _ONE_;
 extern _EXP_TYPE_ _TAB_;
 extern _EXP_TYPE_ _TRUE_;
 extern _EXP_TYPE_ _VOID_;
+extern _EXP_TYPE_ _STOP_; //Added stop
 extern _EXP_TYPE_ _ZERO_;
 
 /* public prototypes */

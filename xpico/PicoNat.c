@@ -230,7 +230,7 @@
 
 /* private constants */
 
-#define NATIVE_SIZE 59
+#define NATIVE_SIZE 60
 
 #define CAL _eval_CAL_
 #define EVL _eval_EXP_
@@ -243,6 +243,7 @@
    /*--VARIABLES------*/
 #define eol_STR "eoln"
 #define voi_STR "void"
+#define sto_STR "stop"
    /*--PARAMETERS-----*/
 #define cnt_STR "cont"
    /*--ARITHMETIC-----*/
@@ -285,7 +286,8 @@
 #define txt_STR "is_text" 
 #define fun_STR "is_function" 
 #define tbl_STR "is_table" 
-#define vdd_STR "is_void" 
+#define vdd_STR "is_void"
+#define stp_STR "is_stop" //Added is_stop
    /*--TABLE----------*/
 #define siz_STR "size" 
 #define tab_STR "tab" 
@@ -360,6 +362,7 @@ static _NIL_TYPE_ TXT(_NIL_TYPE_);
 static _NIL_TYPE_ FUN(_NIL_TYPE_);
 static _NIL_TYPE_ TBL(_NIL_TYPE_);
 static _NIL_TYPE_ VDD(_NIL_TYPE_);
+static _NIL_TYPE_ STP(_NIL_TYPE_); //Added STP
    /*--TABLE----------*/
 static _NIL_TYPE_ SIZ(_NIL_TYPE_);
 static _NIL_TYPE_ TAB(_NIL_TYPE_);
@@ -427,6 +430,7 @@ static _NIL_TYPE_ TXU(_NIL_TYPE_);
 static _NIL_TYPE_ FNU(_NIL_TYPE_);
 static _NIL_TYPE_ TBU(_NIL_TYPE_);
 static _NIL_TYPE_ VDU(_NIL_TYPE_);
+static _NIL_TYPE_ SPT(_NIL_TYPE_); //Added SPT
 static _NIL_TYPE_ SZU(_NIL_TYPE_);
 static _NIL_TYPE_ TBX(_NIL_TYPE_);
 static _NIL_TYPE_ DSX(_NIL_TYPE_);
@@ -500,6 +504,7 @@ static const _CNT_TYPE_ FUN_tab[] =
    FUN,
    TBL,
    VDD,
+   STP, //Added STP
    /*--TABLE----------*/
    SIZ,
    TAB,
@@ -572,7 +577,8 @@ static const _STR_TYPE_ STR_tab[] =
    txt_STR, 
    fun_STR,
    tbl_STR, 
-   vdd_STR, 
+   vdd_STR,
+   stp_STR, //Added STP string
    /*--TABLE----------*/
    siz_STR,  
    tab_STR, 
@@ -617,6 +623,7 @@ _EXP_TYPE_ _ONE_;
 _EXP_TYPE_ _TAB_;
 _EXP_TYPE_ _TRUE_;
 _EXP_TYPE_ _VOID_;
+_EXP_TYPE_ _STOP_; //Added Stop
 _EXP_TYPE_ _ZERO_;
 
 /* private functions */
@@ -2179,6 +2186,14 @@ static _NIL_TYPE_ VDD(_NIL_TYPE_)
 static _NIL_TYPE_ VDU(_NIL_TYPE_)
  { nat_tag(_VOI_TAG_); }
 
+//added STP
+
+static _NIL_TYPE_ STP(_NIL_TYPE_)
+ { una(SPT, stp_STR); }
+
+static _NIL_TYPE_ SPT(_NIL_TYPE_)
+ { nat_tag(_STO_TAG_); }
+
 /*------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------*/
 /*------------------------T A B L E     O P E R A T O R S-----------------*/
@@ -3419,16 +3434,19 @@ _NIL_TYPE_ _nat_interrupt_(_NIL_TYPE_)
    _stk_push_CNT_(ign);
    _stk_push_CNT_(EVL); }
    
+//Added stop to the initial dictionary
 _EXP_TYPE_ _nat_install_(_NIL_TYPE_)
  { _EXP_TYPE_ dct;
    _UNS_TYPE_ ctr;
    _VOID_  = _ag_make_VOI_();    
+   _STOP_  = _ag_make_STO_();
    _EOLN_  = _env_make_NAM_(nwl_STR);    
    _NULL_  = _env_make_NAM_(nul_STR);    
    dct = install_var(eol_STR, _EOLN_, _VOID_);
    dct = install_var(voi_STR, _VOID_, dct);
+   dct = install_var(sto_STR, _STOP_, dct);
    for (ctr = 0; ctr < NATIVE_SIZE; ctr++)
-     dct = install_fun(STR_tab[ctr], ctr, dct);
+    dct = install_fun(STR_tab[ctr], ctr, dct);
    _TRUE_  = lookup(trr_STR, dct);
    _FALSE_ = lookup(fls_STR, dct); 
    _EMPTY_ = _ag_make_TAB_(0);    

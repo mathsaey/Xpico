@@ -67,6 +67,7 @@
 #define _BUF_SIZE_    32768
 
 #define _VOI_SIZE_    0
+#define _STO_SIZE_    0 //Added sto size
 #define _NAT_SIZE_    2
 #define _FUN_SIZE_    4
 #define _VAR_SIZE_    1
@@ -89,6 +90,10 @@
 
 #define _ag_make_VOI_()\
   _mem_make_chunk_(_VOI_SIZE_, _VOI_TAG_)  
+
+//Added ag_make_STO_()
+#define _ag_make_STO_()\
+  _mem_make_chunk_(_STO_SIZE_, _STO_TAG_)
                                
 #define _ag_make_NBR_(SGN)\
   _mem_make_nbr_(SGN)                            
@@ -327,10 +332,10 @@ typedef enum { _VOI_TAG_ = 0 ,
                _SET_TAG_ = 10,
                _DCT_TAG_ = 11,
                _ENV_TAG_ = 12,
-               _NY1_TAG_ = 13,
+               _STO_TAG_ = 13,
                _NY2_TAG_ = 14,
                _NY3_TAG_ = 15,
-               _NBR_TAG_ = 16 } _TAG_TYPE_;
+               _NBR_TAG_ = 16} _TAG_TYPE_;
 
 typedef          char     _BUF_TYPE_[_BUF_SIZE_];
 
