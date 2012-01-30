@@ -230,7 +230,7 @@
 
 /* private constants */
 
-#define NATIVE_SIZE 60
+#define NATIVE_SIZE 61
 
 #define CAL _eval_CAL_
 #define EVL _eval_EXP_
@@ -318,6 +318,11 @@
    /*--ESCAPE---------*/
 #define esc_STR "interrupt"
 #define err_STR "error"
+
+//Added strings
+   /*--ITERATORS------*/
+#define iter_STR "iterate"
+#define iter_func_nam "iterator"
 
 /* private prototypes */
 
@@ -460,6 +465,15 @@ static _NIL_TYPE_ MKU(_NIL_TYPE_);
 static _NIL_TYPE_ SWU(_NIL_TYPE_);
 static _NIL_TYPE_ ERU(_NIL_TYPE_);
 
+//Added declarations
+/*--ITERATORS------*/
+static _NIL_TYPE_ get_EXP(const _CNT_TYPE_, const _STR_TYPE_);
+static _NIL_TYPE_ ITE(_NIL_TYPE_);
+static _NIL_TYPE_ ITER(_NIL_TYPE_);
+
+
+
+
 /* private variables */
 
 static const _CNT_TYPE_ FUN_tab[] =
@@ -534,7 +548,10 @@ static const _CNT_TYPE_ FUN_tab[] =
    MAK, 
    /*--ESCAPE---------*/
    ESC,
-   ERR };
+   ERR, 
+   /*--ITERATORS-----*/
+   //Added functions
+   ITE};
 
 static const _STR_TYPE_ STR_tab[] =
    /*--ARITHMETIC-----*/
@@ -608,7 +625,11 @@ static const _STR_TYPE_ STR_tab[] =
    mak_STR,
    /*--ESCAPE---------*/
    esc_STR,
-   err_STR };
+   err_STR,
+   /*--ITERATORS-----*/
+   //Added strings
+   iter_STR
+};
 
 /* public variables */
 
@@ -3364,6 +3385,55 @@ static _NIL_TYPE_ ERU(_NIL_TYPE_)
      { _error_msg_(_USR_ERROR_, txt); 
        return; }
    _error_str_(_ATC_ERROR_, err_STR); }
+
+
+
+
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*--------------------------- I T E R A T O R S --------------------------*/
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+
+//Added natives
+
+//Works like una, but does not eval the given expression
+static _NIL_TYPE_ get_EXP(const _CNT_TYPE_ cnt, const _STR_TYPE_ str)
+{ _EXP_TYPE_ arg, exp;
+    _UNS_TYPE_ siz;
+    _stk_claim_();
+    _stk_peek_EXP_(arg);
+    siz = _ag_get_TAB_SIZ_(arg);
+    if(siz == 1)
+        { exp = _ag_get_TAB_EXP_(arg, 1);
+          _stk_poke_EXP_(exp);
+          _stk_poke_CNT_(cnt);
+        }
+    else _error_str_(_NMA_ERROR_, str); }   
+
+
+static _NIL_TYPE_ ITE(_NIL_TYPE_)
+ { get_EXP(ITER, iter_STR); }
+
+
+static _NIL_TYPE_ ITER(_NIL_TYPE_)
+ { _EXP_TYPE_ exp;
+   _stk_pop_EXP_(exp);
+     
+   _EXP_TYPE_ def = _ag_make_DEF_();
+   _EXP_TYPE_ apl = _ag_make_APL_();
+     
+    _ag_set_APL_NAM_(apl, _env_make_NAM_(iter_func_nam)); 
+    _ag_set_APL_ARG_(apl, _EMPTY_);
+    _ag_set_DEF_INV_(def, apl);
+    _ag_set_DEF_EXP_(def, exp);
+     
+     _stk_push_EXP_(def);
+     _stk_poke_CNT_(EVL);
+ }
+
+
 
 /*------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------*/
