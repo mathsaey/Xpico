@@ -3,10 +3,9 @@ This is the pico interpreter, written in C. All the original code is written at 
 
 #Important
 All changes to the original code will be marked with an added comment. This way changes can be found by using ctrl/cmd + f easily.
-In case a file is broken in any way an online version of the code can be found at the github repository of this project. https://github.com/mathsaey/Xpico
 
-#Goal
-The goal of this project is to add iterators, generators and simple table comprehensions to the pico evaluator.
+#Goal 
+The goal of this project is to add iterators, generators and simple table comprehensions to the original pico evaluator.
 
 #Links
 
